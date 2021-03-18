@@ -4,7 +4,6 @@
 import { combineReducers } from 'redux';
 import exampleReducers from './reducerFetchData';
 
-
 const reducers = combineReducers({
 	posts: exampleReducers,
 });
